@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(108, 216, 156);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  background-color: rgb(108, 216, 156);
+  color: #fcf6f5ff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.center-div{
+  background-color: #fcf6f5ff;
+  height: auto;
+  width: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px; 
+  padding: 20px;
+}
+.center-div:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+input[type=text]{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  margin-top: 0%;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(108, 216, 156);
+}
+.btn-submit{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  background-color: rgb(108, 216, 156);
+  color: #fcf6f5ff;
+  font-size: 40px;
+}
+.btn-submit:hover{
+  cursor: pointer;
+  background-color: #fcf6f5ff;
+  color: rgb(108, 216, 156);
+}
+ol li{
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.list-style{
+  display: flex;
+  margin-top: 20px;
+}
+.btn-delete{
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: rgb(108, 216, 156);
+  color: #fcf6f5ff;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.btn-delete:hover{
+  cursor: pointer;
+  background-color: #fcf6f5ff;
+  color: rgb(108, 216, 156);
+}
